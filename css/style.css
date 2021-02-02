@@ -227,7 +227,6 @@ html {
 
 /* ----- Features -----*/
 .features {
-    justify-content: center;
     position: absolute;
     top: 70rem;
     left: 14.5rem;
@@ -280,4 +279,8 @@ html {
     /* or 162% */
     color: var(--paragraph-black);
     margin-top: 1.3rem;
+}
+
+.feature__button {
+    margin: auto;
 }
