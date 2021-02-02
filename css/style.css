@@ -227,7 +227,6 @@ html {
 
 /* ----- Features -----*/
 .features {
-    display: flex;
     justify-content: center;
     position: absolute;
     top: 70rem;
@@ -243,11 +242,11 @@ html {
     font-size: 3.6rem;
     line-height: 5.4rem;
     text-align: center;
+    margin: auto;
     color: var(--header-black);
 }
 
 .features__content {
     display: flex;
     align-items: center;
-
 }
