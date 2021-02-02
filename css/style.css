@@ -118,6 +118,7 @@ html {
     transition: ease-in-out .2s;
 }
 
+/*----- ** Generic Stylings ** -----*/
 /* ----- Section ----- */
 .section {
     display: flex;
@@ -152,6 +153,13 @@ html {
     color: var(--paragraph-black);
 }
 
+/* ----- Images ----- */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ----- Header ----- */
 .header {
     height: 50rem;
@@ -183,13 +191,6 @@ html {
     line-height: 2.8rem;
     /* or 156% */
     color: var(--paragraph-black);
-}
-
-/* ----- Header image ----- */
-.header__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* ----- Header button ----- */
@@ -322,22 +323,10 @@ html {
     width: 48.6rem;
 }
 
-.design__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* ----- Product Section ----- */
 .product__section {
     top: 190rem;
     height: 57.4rem;
-}
-
-.product__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .product__text-content {
@@ -379,12 +368,6 @@ html {
 
 .market__paragraph {
     width: 48.6rem;
-}
-
-.market__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer {
