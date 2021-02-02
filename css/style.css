@@ -122,9 +122,10 @@ html {
 .header__content {
     display: flex;
     width: 51.8rem;
-    height: 10rem;
-
-    flex-wrap: wrap;
+    height: 40rem;
+    
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .header__content-primary {
@@ -175,12 +176,34 @@ html {
     transition: ease-in-out .2s;
 }
 
+#header__video {
+    flex-direction: row;
+    
+}
+
+.video--box {
+    width: 18rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content:center;
+    /* margin-left: 3rem; */
+}
+
 .header__content-video {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2.4rem;
     /* identical to box height */
-
     text-decoration-line: underline;
     color: var(--signup-orange);
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 14px solid transparent;
+	border-left: 32px solid #ff9900;
+	border-bottom: 14px solid transparent;
 }
