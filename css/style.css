@@ -13,7 +13,6 @@ html {
 
 .body {
     box-sizing: border-box;
-    /* display: flex; */
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -47,32 +46,41 @@ html {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    /* align-items: center; */
+    align-items: center;
     list-style-type: none;
+    position: relative;
+    top: 3.5rem;
+    right:12rem;
+}
 
+.nav__links-menu {
+    margin-left: 3rem;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 2.8rem;
     color: var(--header-black);
     /* identical to box height, or 200% */
-
-    position: relative;
-    top: 3.5rem;
-    right: 14.5rem;
 }
 
-.nav__links-menu {
-    margin-left: 3rem;
+.nav__links-menu:hover {
+    transform: scale(1.2);
+    transition: ease-in-out .2s;
+    text-decoration-line: underline;
+    text-decoration-color: var(--signup-orange);
 }
 
 /* ----- Navigation Buttons ----- */
+.nav__buttons {
+    width: 2.7rem;
+    
+}
+
 .small-btn {
     width: 11rem;
     height: 4.6rem;
     border-radius: .4rem;
     border: none;
-    margin-left: 3rem;
-
+    list-style-type: none;
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -83,12 +91,15 @@ html {
     border: .15rem solid #bcd0e5;
     color: var(--button-text);
     background-color: transparent;
+    margin-left: 3rem;
 }
 
 .btn--signup {
     background-color: var(--signup-orange);
     color: var(--white);
     margin-left: 1.4rem;
+    
+
 }
 
 /* ----- Navigation Buttons Hover ----- */
