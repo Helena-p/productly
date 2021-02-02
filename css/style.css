@@ -118,16 +118,44 @@ html {
     transition: ease-in-out .2s;
 }
 
-/* ----- Header ----- */
-.header {
-    position: absolute;
-    width: 113rem;
-    height: 50rem;
-    top: 12.8rem;
-    left: 14.5rem;
+/* ----- Section ----- */
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    width: 113rem;
+    left: 14.5rem;
+}
+
+/* ----- Headings and paragraphs----- */
+.secondary--heading {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: var(--header-black);
+}
+
+.tertiary--heading {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    /* identical to box height, or 162% */
+    color: var(--heading-black);
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    /* or 162% */
+    color: var(--paragraph-black);
+}
+
+/* ----- Header ----- */
+.header {
+    height: 50rem;
+    top: 12.8rem;
 }
 
 .header__content {
@@ -237,19 +265,14 @@ html {
 .features__heading-primary {
     width: 54rem;
     height: 10.8rem;
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 5.4rem;
     text-align: center;
     margin: auto;
-    color: var(--header-black);
 }
 
 .features__content {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
 }
 
 .features__content-box {
@@ -273,11 +296,6 @@ html {
 
 .features__text {
     height: 7.8rem;
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    /* or 162% */
-    color: var(--paragraph-black);
     margin-top: 1.3rem;
 }
 
@@ -289,13 +307,7 @@ html {
 
 /* ----- Design Section ----- */
 .design__section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
     top: 130rem;
-    left: 14.5rem;
-    width: 112rem;
     height: 57.4rem;
 }
 
@@ -306,28 +318,7 @@ html {
     height: 100%;
 }
 
-.design__text-heading {
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 5.4rem;
-    /* identical to box height */
-    color: var(--heading-black);
-}
-
-.design__sub-heading {
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    /* identical to box height, or 162% */
-    color: var(--heading-black);
-}
-
 .design__paragraph {
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    /* or 162% */
-    color: var(--paragraph-black);
     width: 48.6rem;
 }
 
@@ -339,13 +330,7 @@ html {
 
 /* ----- Product Section ----- */
 .product__section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
     top: 190rem;
-    left: 14.5rem;
-    width: 112rem;
     height: 57.4rem;
 }
 
@@ -363,20 +348,7 @@ html {
     width: 50rem;
 }
 
-.product__text-heading {
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 5.4rem;
-    /* identical to box height */
-    color: var(--heading-black);
-}
-
 .product__paragraph {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    color: var(--paragraph-black);
     width: 38rem;
 }
 
@@ -394,13 +366,7 @@ html {
 
 /* ----- Marketers Section ----- */
 .market__section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
     top: 255rem;
-    left: 14.5rem;
-    width: 112rem;
     height: 57.4rem;
 }
 
@@ -411,28 +377,7 @@ html {
     height: 100%;
 }
 
-.market__text-heading {
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 5.4rem;
-    /* identical to box height */
-    color: var(--heading-black);
-}
-
-.market__sub-heading {
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    /* identical to box height, or 162% */
-    color: var(--heading-black);
-}
-
 .market__paragraph {
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    /* or 162% */
-    color: var(--paragraph-black);
     width: 48.6rem;
 }
 
@@ -440,4 +385,36 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    position: absolute;
+    top: 330rem;
+    left: 14.5rem;
+    width: 112rem;
+    height: 30rem;
+}
+
+.company__links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 16rem;
+}
+
+.footer__links {
+    list-style-type: none;
+}
+
+.footer__links-li {
+    color: var(--paragraph-black);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    /* or 219% */
+}
+
+.footer__input-submit {
+
+    width: 32rem;
 }
