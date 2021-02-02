@@ -188,8 +188,9 @@ html {
 }
 
 #header__video {
+    display: flex;
     flex-direction: row;
-    
+    align-items: center;
 }
 
 .video--box {
@@ -197,9 +198,8 @@ html {
     height: 2.5rem;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     align-content:center;
-    /* margin-left: 3rem; */
+    margin-left: 3rem;
 }
 
 .header__content-video {
