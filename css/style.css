@@ -336,3 +336,54 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+/* ----- Product Section ----- */
+.product__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 190rem;
+    left: 14.5rem;
+    width: 112rem;
+    height: 57.4rem;
+}
+
+.product__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40rem;
+    width: 50rem;
+}
+
+.product__text-heading {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    /* identical to box height */
+    color: var(--heading-black);
+}
+
+.product__paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: var(--paragraph-black);
+}
+
+.product__checkbox-container {
+    display: block;
+}
+
+.product-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
