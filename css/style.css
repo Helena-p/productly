@@ -14,4 +14,17 @@ html {
 .body {
     box-sizing: border-box;
     display: flex;
+    width: 100vw;
+    height: 100vh;
 }
+
+/* ----- Declared Variables ----- */
+:root {
+    --signup-orange: #ff9900;
+    --header-black: #2f281e;
+    --paragraph-black: #544837;
+    --button-border: #bcd0e5;
+    --white: #fff;
+}
+
+/* ----- Navigation Meny ----- */
