@@ -16,7 +16,6 @@ html {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: bisque;
 }
 
 /* ----- Declared Variables ----- */
@@ -29,3 +28,23 @@ html {
 }
 
 /* ----- Navigation Meny ----- */
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    position:relative;
+    width: 18.5rem;
+    height: 3rem;
+    left: 14.4rem;
+    top: 4.2rem;
+}
+
+.nav__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
