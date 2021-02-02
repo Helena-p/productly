@@ -249,4 +249,35 @@ html {
 .features__content {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+   
+}
+
+.features__content-box {
+    width: 24rem;
+    margin-top: 5rem;
+}
+
+.features__icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.features__heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    /* identical to box height */
+    color: var(--header-black);
+    margin-top: 3rem;
+}
+
+.features__text {
+    height: 7.8rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    /* or 162% */
+    color: var(--paragraph-black);
+    margin-top: 1.3rem;
 }
