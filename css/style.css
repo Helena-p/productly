@@ -98,8 +98,6 @@ html {
     background-color: var(--signup-orange);
     color: var(--white);
     margin-left: 1.4rem;
-    
-
 }
 
 /* ----- Navigation Buttons Hover ----- */
@@ -130,7 +128,6 @@ html {
 
 .container {
     height: 50rem;
-    background-color: lightgray;
 }
 
 /*----- ** Generic Stylings ** -----*/
@@ -139,9 +136,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    width: 113rem;
-    left: 14.5rem;
 }
 
 /* ----- Headings and paragraphs----- */
@@ -176,10 +170,6 @@ html {
 }
 
 /* ----- Header ----- */
-/* .header__container {
-    height: 50rem;
-} */
-
 .header__content {
     display: flex;
     width: 51.8rem;
@@ -269,10 +259,6 @@ html {
 }
 
 /* ----- Features -----*/
-/* .features__container {
-    height: 50rem;
-} */
-
 .features__heading-primary {
     width: 54rem;
     height: 10.8rem;
@@ -318,7 +304,6 @@ html {
 
 /* ----- Design Section ----- */
 .design__container {
-    /* top: 130rem; */
     height: 57.4rem;
 }
 
@@ -379,16 +364,14 @@ html {
 }
 
 .border {
-    top: 330rem;
-    left: 14.4rem;
-    width: 113rem;
-    border-top: 1px solid #BCD0E5;
-    position: absolute;
+    height: 2rem;
+    border-top: 1px solid #BCD0E5;     
 }
 
 /* ----- Footer and Company Links ----- */
 .footer__container {
-    height: 30rem; 
+    height: 25rem;
+    
 }
 
 .company__links {
