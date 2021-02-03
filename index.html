@@ -27,8 +27,10 @@
         </ul>
     </nav>
 
-    <main>
-    <!--- Header with main text content and image -->
+    <main class="main-container">
+
+        <section class="container header__container">
+            <!--- Header with main text content and image -->
     <header class="section header">
         <!-- Header text -->
         <section class="header__content">
@@ -58,46 +60,50 @@
             <img src="images/header-img.png" alt="Happy group of people with books">
         </section>
     </header>
+        </section>
 
-        <!-- Features -->
+        <section class="container features__container">
+            <!-- Features -->
         <div class="features">
-                <h2 class="secondary--heading features__heading-primary">
-                    We design tools to unveil your superpowers
-                </h2>
-            <section class="features__content">
-                <div class="features__content-box">
-                    <img src="images/click-icon.png" alt="Click icon" class="features__icon">
-                    <h3 class="tertiary--heading features__heading">First click tests</h3>
-                    <p class="paragraph features__text">
-                        While most people enjoy casino gambling
-                    </p>
-                </div>
-                <div class="features__content-box">
-                    <img src="images/design-icon.png" alt="Design icon" class="features__icon">
-                    <h3 class="tertiary--heading features__heading">Design surveys</h3>
-                    <p class="paragraph features__text">
-                        Sports betting, lottery and bingo playing for the fun
-                    </p>
-                </div>
-                <div class="features__content-box">
-                    <img src="images/preference-icon.png" alt="Heart icon" class="features__icon">
-                    <h3 class="tertiary--heading features__heading">Preference Test</h3>
-                    <p class="paragraph features__text">
-                        Sports betting, lottery and bingo playing for the fun
-                    </p>
-                </div>
-                <div class="features__content-box">
-                    <img src="images/test-icon.png" alt="Hourglass icon" class="features__icon">
-                    <h3 class="features__heading">Five second tests</h3>
-                    <p class="paragraph features__text">
-                        Personal choices and the overall personality of the person. 
-                    </p>
-                </div>
-            </section>
-            <button class="large-btn feature__button">Sign Up Now</button>
-        </div>
-        
-        <!-- Design Section -->
+            <h2 class="secondary--heading features__heading-primary">
+                We design tools to unveil your superpowers
+            </h2>
+        <section class="features__content">
+            <div class="features__content-box">
+                <img src="images/click-icon.png" alt="Click icon" class="features__icon">
+                <h3 class="tertiary--heading features__heading">First click tests</h3>
+                <p class="paragraph features__text">
+                    While most people enjoy casino gambling
+                </p>
+            </div>
+            <div class="features__content-box">
+                <img src="images/design-icon.png" alt="Design icon" class="features__icon">
+                <h3 class="tertiary--heading features__heading">Design surveys</h3>
+                <p class="paragraph features__text">
+                    Sports betting, lottery and bingo playing for the fun
+                </p>
+            </div>
+            <div class="features__content-box">
+                <img src="images/preference-icon.png" alt="Heart icon" class="features__icon">
+                <h3 class="tertiary--heading features__heading">Preference Test</h3>
+                <p class="paragraph features__text">
+                    The Myspace page defines the individual.
+                </p>
+            </div>
+            <div class="features__content-box">
+                <img src="images/test-icon.png" alt="Hourglass icon" class="features__icon">
+                <h3 class="features__heading">Five second tests</h3>
+                <p class="paragraph features__text">
+                    Personal choices and the overall personality of the person. 
+                </p>
+            </div>
+        </section>
+        <button class="large-btn feature__button">Sign Up Now</button>
+    </div>
+        </section>
+
+        <section class="container design__container">
+            <!-- Design Section -->
         <section class="section design__section">
             <div class="design__text-content">
                     <p class="paragraph design__paragraph">
@@ -133,8 +139,10 @@
                 <img src="images/effortless-img.png" alt="Young man speaking">
             </div>
         </section>
-
-        <!-- Product Managers Section -->
+        </section>
+            
+        <section class="container product__container">
+            <!-- Product Managers Section -->
         <section class="section product__section">
 
             <!-- Product Image -->
@@ -142,7 +150,7 @@
                 <img src="images/managers-img.png" alt="">
             </div>
 
-            <!-- Product Managers Taxt Content -->
+            <!-- Product Managers Text Content -->
             <div class="product__text-content">
                     <p class="paragraph product__paragraph">
                         Easier decision making for
@@ -173,8 +181,10 @@
                 </div>
             </div>
         </section>
-
-        <!-- Marketers Section -->
+        </section>
+        
+            <section class="container market__container">
+                <!-- Marketers Section -->
         <section class="section market__section">
             <div class="market__text-content">
                     <p class="paragraph market__paragraph">
@@ -205,15 +215,15 @@
                         If you are looking for a new way to promote your business that won’t cost you more money, 
                     </p>
                 </div>
-                <!-- Design Image -->
+                <!-- Marketers Image -->
             <div class="images">
                 <img src="images/marketers-img.png" alt="Young man speaking">
             </div>
         </section>
-
-    </main>
-
-    <!-- Footer Links -->
+            </section>
+            
+            <section class="container border footer__container">
+                <!-- Footer Links -->
     <footer class="footer">
         <div class="footer-logo">
             <img src="images/logo.svg" alt="Productly Logo">
@@ -232,11 +242,18 @@
                 <li class="footer__links-li"><a href="#"></a>Terms of Service</li>
             </ul>
             <div class="footer__input-submit">
-                <input type="text">
+                <input class="footer__input-field" type="text" placeholder="Enter your phone number">
                 <button class="large-btn">Sign Up Now</button>
             </div>
         </section>
     </footer>
+
+            </section>
+
+    </main>
+
+
+
     
 </body>
 </html>
